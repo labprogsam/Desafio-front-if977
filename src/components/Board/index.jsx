@@ -11,8 +11,8 @@ const Board = ({ title, color }) => {
     return (
       <MainContainer>
         <TitleBoard>{title}</TitleBoard>
-        <Card color={color} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
-        <Card color={color} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
+        <Card color={color} priority={"High"} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
+        <Card color={color} priority={"Low"} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
         <Card color={color} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
         <Card color={color} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
         <Card color={color} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />

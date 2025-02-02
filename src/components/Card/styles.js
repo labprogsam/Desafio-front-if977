@@ -24,8 +24,17 @@ const DescriptionCard = styled.p`
   font-weight: 400;
 `;
 
+const TagCard = styled.div`
+  padding: 2px 4px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  background-color: transparent;
+`;
+
 export {
   MainContainer,
   TitleCard,
-  DescriptionCard
+  DescriptionCard,
+  TagCard
 }
