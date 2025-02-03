@@ -1,5 +1,6 @@
 import React from 'react';
-import {Board, Button} from '../../components'
+import {Board} from '../../components'
+import Button from './Button';
 import {
   MainContainer,
   HeaderKanban,

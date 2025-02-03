@@ -3,9 +3,10 @@ import {
   MainContainer
 } from './styles';
 
-const Button = ({ title, onClick, color, background }) => {
+const Button = ({ title }) => {
+  const [active, setActive] = useState(false);
   return (
-    <MainContainer color={color} background={background} onClick={() => onClick()}>
+    <MainContainer onClick={() => setActive(!active)} active={active}>
       {title}
     </MainContainer>
   )

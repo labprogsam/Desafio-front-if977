@@ -1,18 +1,17 @@
 import styled from 'styled-components';
 
 const MainContainer = styled.div`
-  width: 160px;
+  width: 115px;
+  height: 35px;
   border-radius: 8px;
   border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
-  background-color: ${(props) => props.background ? props.background : "transparent"};
-  color: ${(props) => props.color ? props.color : "white"};
+  margin-right: 14px;
+  background-color: ${(props) => props.active ? "white" : "transparent"};
+  color: ${(props) => props.active ? "#000000" : "white"};
   cursor: pointer;
-  border: none;
-  padding: 8px;
 `;
 
 export {
