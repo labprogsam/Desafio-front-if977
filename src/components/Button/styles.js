@@ -13,6 +13,10 @@ const MainContainer = styled.div`
   cursor: pointer;
   border: none;
   padding: 8px;
+
+  &:hover {
+    opacity: 0.7;
+  }
 `;
 
 export {

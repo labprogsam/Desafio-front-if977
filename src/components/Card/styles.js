@@ -11,6 +11,7 @@ const MainContainer = styled.div`
   border-radius: 8px;
   text-align: start;
   margin: 10px 0;
+  width: 100%;
 `;
 
 const TitleCard = styled.h1`

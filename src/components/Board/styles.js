@@ -12,6 +12,11 @@ const MainContainer = styled.div`
   border-radius: 8px;
   max-height: 100%;
   overflow-y: scroll;
+  width: 100%;
+
+  a {
+    width: 100%;
+  }
 `;
 
 const TitleBoard = styled.div`

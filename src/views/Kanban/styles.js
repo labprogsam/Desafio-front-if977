@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const MainContainer = styled.div`
   background-color: #000000;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   color: #FFFFFF;
@@ -18,12 +18,16 @@ const HeaderKanban = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  max-width: 1900px;
 `;
 
 const BoardsKanban = styled.div`
   display: flex;
   flex-direction: row;
   height: 85%;
+  width: 100%;
+  max-width: 1900px;
+  justify-content: center;
 `;
 
 const TitleKanban = styled.h1`
@@ -51,6 +55,7 @@ const ButtonKanban = styled.button`
   border: none;
   padding: 7px;
   cursor: pointer;
+  margin-right: 20px;
 `;
 
 export {

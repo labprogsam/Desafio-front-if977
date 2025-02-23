@@ -7,15 +7,13 @@ import {
     TitleBoard
 } from "./styles";
 
-const Board = ({ title, color, status }) => {
+const Board = ({ title, color, status, items }) => {
     return (
       <MainContainer>
         <TitleBoard>{title}</TitleBoard>
-        <Card color={color} id="1" priority={"High"} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
-        <Card color={color} id="2" priority={"Low"} title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
-        <Card color={color} id="3" title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
-        <Card color={color} id="4" title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
-        <Card color={color} id="5" title="Titulo" description="Functions for both web responsive and native apps. Note: Android and iOS will need unique share icons." />
+        {items.map((item) => item.status == status && (
+          <Card key={item.id} color={color} id={item.id} priority={"High"} title={item.titulo} description={item.descricao} />
+        ))}
       </MainContainer>
     )
 }
