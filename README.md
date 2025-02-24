@@ -18,7 +18,7 @@ To run the project for the **first** time you must follow this steps:
 
 1. Clone the GitHub repository
 ```bash
-git clone git@github.com:labprogsam/front-tracos.git
+git clone git@github.com:labprogsam/Desafio-front-if977.git
 ```
 
 2. Install the dependencies and start the npm project
@@ -76,5 +76,3 @@ Must begin with the name of the branch you developed on, following the model: _â
 Must be simple and show briefly what you just did.
 
 Ex: `git commit -m "Feat(32): Added the parallax effect to the background"`
-
-> Read our code of conduct and find out [how to contribute](https://github.com/labprogsam/front-tracos/blob/main/CONTRIBUTING.md)
