@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desafio Engenharia de software
+Desafio front if1977
 
-## Available Scripts
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-In the project directory, you can run:
+### Prerequisites
+You will need to have yarn installed on your machine. For that, simply run:
 
-### `npm start`
+1. Run this command to download the current stable release of Yarn:
+```bash
+npm install -g yarn
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installing
+To run the project for the **first** time you must follow this steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the GitHub repository
+```bash
+git clone git@github.com:labprogsam/front-tracos.git
+```
 
-### `npm test`
+2. Install the dependencies and start the npm project
+```bash
+yarn install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Create **.env** file and copy the following content to it
 
-### `npm run build`
+```dotenv
+# Application settings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+REACT_APP_MAIN_URL=http://localhost:8001
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run the backend project
 
-### `npm run eject`
+Follow the instructions in the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://github.com/labprogsam/Desafio-back-if977
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the project
+To run the project (if already installed), just follow this simple command on the client directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+yarn start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Built With
+* **React**
+* **Styled Component**
 
-## Learn More
+## GitHub
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Branches
+The development branches can be:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
++ feat
++ fix
++ refact
 
-### Code Splitting
+The name of the development branches must follow this template: `feat/branch-name`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In addition to these there are 2 stable branches:
 
-### Analyzing the Bundle Size
++ dev
++ main
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The dev and main branches should only be updated by pull requests.
 
-### Making a Progressive Web App
+### Commits
+Must begin with the name of the branch you developed on, following the model: _“Feat(user story): rest of commit…”._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Must be simple and show briefly what you just did.
 
-### Advanced Configuration
+Ex: `git commit -m "Feat(32): Added the parallax effect to the background"`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Read our code of conduct and find out [how to contribute](https://github.com/labprogsam/front-tracos/blob/main/CONTRIBUTING.md)
